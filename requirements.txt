@@ -1,0 +1,3 @@
+# PhishTriage sadece Python standart kutuphanesini kullanir (Python 3.8+).
+# Harici bagimlilik YOKTUR. Opsiyonel:
+pytest>=7.0     # testler icin
