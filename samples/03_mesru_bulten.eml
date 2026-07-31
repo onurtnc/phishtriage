@@ -1,0 +1,35 @@
+Return-Path: <bounce@python.org>
+Received: from mail.python.org (mail.python.org [188.166.95.178])
+	by mx.sirket.com.tr with ESMTPS id 2Qp4r8
+	for <ahmet.yilmaz@sirket.com.tr>; Mon, 27 Jul 2026 18:00:03 +0300
+Authentication-Results: mx.sirket.com.tr;
+	spf=pass smtp.mailfrom=python.org;
+	dkim=pass header.d=python.org; dmarc=pass header.from=python.org
+DKIM-Signature: v=1; a=rsa-sha256; d=python.org; s=default; h=from:to:subject;
+From: "Python Weekly" <newsletter@python.org>
+To: ahmet.yilmaz@sirket.com.tr
+Subject: Python Weekly - Sayi 742
+Date: Mon, 27 Jul 2026 18:00:00 +0300
+Message-ID: <20260727180000.abc123@python.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="NL1"
+
+--NL1
+Content-Type: text/plain; charset="utf-8"
+
+Merhaba Ahmet,
+
+Bu haftanin one cikan yazilari:
+- asyncio ile yuksek performansli servisler
+- typing modulunde yenilikler
+
+Tum sayi: https://www.python.org/newsletter/742
+
+--NL1
+Content-Type: text/html; charset="utf-8"
+
+<html><body><p>Merhaba Ahmet,</p>
+<p><a href="https://www.python.org/newsletter/742">Tum sayiyi oku</a></p>
+</body></html>
+
+--NL1--

